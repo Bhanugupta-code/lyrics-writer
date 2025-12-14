@@ -21,7 +21,7 @@ const Lyrics = ({ setlyrics }) => {
   <form
     onSubmit={scriptHandler}
     style={{
-      background: "#ffffff10",
+      background: "#ffffff15",
       padding: "30px",
       marginTop: "100px",
       borderRadius: "16px",

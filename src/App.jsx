@@ -8,12 +8,12 @@ const App = () => {
   var i = 0;
   var p = "";
   const dataset = () => {
-    let delay = 150;
+    let delay = 100;
     if(!lyrics) { console.log("give lyrics.")
       return;
      }
     if (lyrics[i] == "\n") {
-      delay = 500;
+      delay = 700;
       setdata((p = p + lyrics[i]));
       i++;
     } else if (i < lyrics.length) {
@@ -37,11 +37,11 @@ const App = () => {
         fontSize: "21px",
         color: "#fff",
         fontWeight: "500",
-        margin: "50px auto",
+        margin: "auto",
         // textAlign: "center",
         lineHeight: "1.7",
         animation: "fadeIn 0.6s ease-in-out",
-        padding: "50px 35%",
+        padding: "10% 10%",
         borderRadius: "10px",
         background: "rgba(0,0,0,0.25)",
         boxShadow: "inset 0 0 10px rgba(0,0,0,0.3)",
